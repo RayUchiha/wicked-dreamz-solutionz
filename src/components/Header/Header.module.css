@@ -15,3 +15,7 @@ Header {
 	min-height: 500px;
 	overflow: hidden;
 }
+
+Header nav {
+	color: blue;
+}
