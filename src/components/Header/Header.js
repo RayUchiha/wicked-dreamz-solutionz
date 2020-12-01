@@ -6,6 +6,9 @@ class Header extends Component {
 		return (
 			<header className={classes.Header}>
 				<h1>Header</h1>
+				<nav>
+					<h3>Nav Menu</h3>
+				</nav>
 			</header>
 		);
 	}
