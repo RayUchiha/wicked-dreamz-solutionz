@@ -1,0 +1,62 @@
+a {
+  text-decoration: none;
+}
+
+.Nav {
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    z-index: 1;
+    background-color: black;
+}
+
+.Nav__Center {
+    width: 90vw;
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.Nav__Links{
+    /*display: none;*/
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+}
+
+.Link__Btn {
+    height: 100%;
+    background: transparent;
+    border-color: transparent;
+    font-size: 1.1rem;
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    width: 10rem;
+    padding-left: 0px;
+}
+
+
+.Btn {
+    font-size: 1rem;
+    padding: 0.25rem 0.75rem;
+    margin-left: 0px;
+    border-radius: 0.25rem;
+    border-color: transparent;
+    color: white;
+    background: #222;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    margin-top: 4px;
+    margin-left: 45%;
+    position: absolute;
+}
+
+
+.Signin__Btn {
+    /*display: none;*/
+}
