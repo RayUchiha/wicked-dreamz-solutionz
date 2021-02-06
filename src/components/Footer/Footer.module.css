@@ -1,0 +1,16 @@
+
+/* Footer */
+.Footer {
+   padding-top: 48px;
+   margin-bottom: 48px;
+   color: #303030;
+   font-size: 14px;
+   text-align: center;
+   position: relative;
+   background: #0f0f0f; 
+}
+.Footer ul {
+	list-style: none;
+}
+.Footer a, Footer a:visited { color: #525252; }
+.Footer a:hover, Footer a:focus { color: #fff; }
