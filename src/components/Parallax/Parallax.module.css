@@ -1,0 +1,42 @@
+/*.container {
+	width: 80%;
+	margin: auto;
+	margin-bottom: 10%;
+	overflow: hidden;
+	justify-content: center;		
+	background-color: #89cff0;
+}
+*/
+.container {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	overflow: hidden;
+	background-color: #f1f1f1;
+	display: flex;
+	flex-direction: column;
+	/*justify-content: center;*/
+	justify-content: space-around;
+	text-align: center;
+}
+
+.Parallax {
+	min-height: 20px;
+	text-align: center;
+	justify-content: center;
+	background: transparent;
+}
+.info {
+	z-index: 5;
+	position: absolute;
+	margin-left: 40%;
+	text-align: center;
+	color: #000;
+	font-size: 30px;
+}
+
+img {
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+}

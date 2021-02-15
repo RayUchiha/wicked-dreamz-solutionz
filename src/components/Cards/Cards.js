@@ -24,8 +24,6 @@ const Cards = () => {
 						</blockquote>
 					</div>
 				</div>
-				
-
 			</div>
 		</div>
 	);
