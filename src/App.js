@@ -11,7 +11,6 @@ class App extends Component {
     return (
       <Aux>
           <Layout>
-            <h2>Wicked Dreamz</h2>
             <Cards />
             <Parallax />
             <Contact />

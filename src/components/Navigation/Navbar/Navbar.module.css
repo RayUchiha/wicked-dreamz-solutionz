@@ -9,7 +9,8 @@ a {
     justify-content: center;
     background: transparent;
     z-index: 1;
-    background-color: black;
+    background-color: #000000;
+    opacity: 0.95;
 }
 
 .Nav__Center {
@@ -52,11 +53,19 @@ a {
     cursor: pointer;
     transition: all 0.3s linear;
     margin-top: 4px;
-    margin-left: 45%;
     position: absolute;
 }
 
 
 .Signin__Btn {
     /*display: none;*/
+    margin-left: 45%;
+    overflow: hidden;
 }
+
+@media only screen and (max-width: 1400px) {
+    .Signin__Btn {
+        margin-left: 90%;
+    }
+}
+/*media query needs to go here*/

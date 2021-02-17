@@ -12,7 +12,7 @@ const Parallax = () => {
 			<div className={classes.Parallax} data-parallax="scroll" data-z-index="1" data-image-src={img}>
 				<img src={img} />
 			</div>
-				<h1 className={classes.info}>Wicked Dreamz Solutionz</h1>
+				<h1 className={classes.info}>Wicked Dreamz So|utionz</h1>
 			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
 		</section>
 	);

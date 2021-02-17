@@ -1,5 +1,4 @@
-Header {
-	background: black;
+.Header {
 	width: 100%;
 	height: 100vh;
 	display: -webkit-flex;
@@ -14,8 +13,14 @@ Header {
 	color: #fff;
 	min-height: 500px;
 	overflow: hidden;
+	background-image: url("../../assets/tropical_miami.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-Header nav {
+.Header nav {
 	color: blue;
+}
+
+.Header__Navbar {
 }

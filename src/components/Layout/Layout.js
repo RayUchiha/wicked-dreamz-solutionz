@@ -9,7 +9,6 @@ class Layout extends Component {
 			<Aux>
 				<div>
 					<Header />
-					<h1>Layout Structure</h1>
 					{this.props.children}
 					<Footer />
 				</div>

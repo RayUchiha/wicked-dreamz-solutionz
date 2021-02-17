@@ -13,7 +13,7 @@ const Navbar = () => {
 		console.log(tempBtn);
 		/*get the midway point of the element by add both size together then dividing*/
 		const center = (tempBtn.left + tempBtn.right)/ 2;
-		const bottom = tempBtn.bottom - 3;
+		const bottom = tempBtn.bottom + 6;
 		
 		/*passing data to the submenu function in context*/
 		openSubmenu(page,{ center , bottom })
