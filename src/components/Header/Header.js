@@ -1,18 +1,21 @@
-import React, { Component } from 'react';
+import React from 'react';
 import classes from './Header.module.css';
 import Navbar from '../Navigation/Navbar/Navbar';
+import Submenu from '../Submenu/Submenu';
+import { useGlobalContext } from '../../context';
 
-class Header extends Component {
-	render () {
-		return (
-			<div>
-				<Navbar />
-				<header className={classes.Header}>
-					<h1>Header</h1>
-				</header>
-			</div>
-		);
-	}
-}
+const Header = (props) => {
+	const {closeSubmenu} = useGlobalContext();
+	return (
+		<div>
+			<Navbar />
+			<header className={classes.Header} onMouseOver={closeSubmenu}>
+				<h1>Header</h1>
+			</header>
+			<Submenu />
+		</div>
+	);
+};
+
 
 export default Header;
