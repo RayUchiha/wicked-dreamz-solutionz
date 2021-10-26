@@ -1,7 +1,32 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import classes from './Contact.module.css';
+import Spinner from '../../components/UI/Spinner/Spinner';
+import Aux from '../../hoc/Aux';
 
-const Contact = () => {
+const Contact = ({ data }) => {
+	const {resData, setResData} = useState(); /* Setting it up to be received as an object*/
+    
+	if (!data) {
+		console.log("Congrats!! Data was downloaded");
+	} else {
+		console.log("Data has not been downloaded yet");
+	}
+	
+    if(data){
+		console.log(data);
+		const resData = data;
+		console.log(resData);
+
+		
+		let contactInfo = data ? <p>Ingredients can't be loaded!</p> : <Spinner />;
+    }
+
+	if (!data) {
+		console.log("Data has not been downloaded yet");
+	} else {
+		console.log("Congrats!! Data was downloaded");
+	}
+	
 	return (
 		<section className={classes.contact}>
 					<form id="contactForm" name="contactForm">
@@ -24,16 +49,15 @@ const Contact = () => {
 							<div>
 								<button type="submit" onClick="" className={classes.submit}>Submit</button>
 							</div>
-					</form>
-
-				<aside className="footer-widgets">
-					<div className="widget widget_contact">
+					</form>            
+				<aside class="footer-widgets">
+					<div class="widget widget_contact">
 						<h4>Address and Phone</h4>
-						<p className="address">
+						<p class="address">
 							"data?.name"<br />
 							"data?.address.street" <br />
 							"data?.address.city", "data?.address.state" "data?.address.zip"<br />
-							<span>"data?.phone"</span>
+							<span>data.phone</span>
 						</p>
 					</div>
 				</aside>

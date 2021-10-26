@@ -9,8 +9,8 @@ const Parallax = () => {
 	return (
 		<section className={classes.container}>
 			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
-			<div className={classes.Parallax} data-parallax="scroll" data-z-index="1" data-image-src={img}>
-				<img src={img} />
+			<div className={classes.Parallax} data-parallax="scroll" data-z-index="1" data-image-src=''>
+				<img />
 			</div>
 				<h1 className={classes.info}>Wicked Dreamz So|utionz</h1>
 			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
