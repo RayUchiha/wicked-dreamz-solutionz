@@ -59,6 +59,7 @@ code {
 }
 .submenu h4 {
   margin-bottom: 1.5rem;
+  text-transform: capitalize;
 }
 .submenu-center a {
   width: 10rem;

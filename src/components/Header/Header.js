@@ -11,10 +11,27 @@ const Header = (props) => {
 		<div className={classes.Header__Navbar}>
 			<Navbar />
 			<header className={classes.Header} onMouseOver={closeSubmenu}>
-				<h1>Welcome to Wicked Dreamz Digital So|utionz!</h1>
+				<div className={classes.head__banner}>
+					<h1>Wicked Dreamz Digital So|utionz!</h1>
+					<h3>Fully Responsive Web Apps</h3>
+					<div className={classes.banner__text}>
+						<hr />
+						<p>networks</p>
+					</div>
+				</div>
 			</header>
 			<Submenu />
 		</div>
+			/*
+			<div id="head__banner">
+				<h1>Wicked Dreamz </h1>
+				<p>Fully Responsive Web Apps</p>
+				<div class="banner-text">
+					<hr />
+					{networks}
+				</div>
+			</div>
+			*/
 	);
 };
 

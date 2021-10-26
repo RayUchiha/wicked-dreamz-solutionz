@@ -1,0 +1,39 @@
+/* Global */
+.container {
+	width: 80%;
+	margin: 10% auto;
+	overflow: hidden;
+}
+
+
+.dark {
+	padding: 15px;
+	/* background: #35424a; */
+	background: linear-gradient(to right, #42263d, #2596be);
+	color: #ffffff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #eee;
+	box-shadow: 0 2px 3px #ccc;
+}
+
+
+/* Main-col */
+.main__col {
+	float: left;
+	width: 65%;
+	background: #fff;
+}
+
+
+/* Sidebar */
+.sidebar {
+	float: right;
+	width: 30%;
+	margin-top: 10px;
+}
+
+.sidebar .quote input, .sidebar .quote textarea {
+	width: 90%;
+	padding: 5px;
+}

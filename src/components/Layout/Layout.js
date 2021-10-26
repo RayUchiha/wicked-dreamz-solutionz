@@ -5,6 +5,7 @@ import Footer from '../Footer/Footer';
 
 class Layout extends Component {
 	render () {
+		
 		return (
 			<Aux>
 				<div>

@@ -4,6 +4,7 @@ import classes from './Cards.module.css';
 const Cards = () => {
 	return (
 		<div className={classes.container}>
+			<a id="cards"></a>
 			<div className={classes.card}>
 				<div className={classes.content}>
 					<div className={classes.front}>Front</div>
